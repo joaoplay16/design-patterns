@@ -2,8 +2,20 @@ package bridge;
 
 import java.util.Map;
 
+/*
+*Um ponto que acho interessante no Bridge é o fato de sua solução utilizar ao
+mesmo tempo herança e composição
+* */
+
 public abstract class GeradorArquivo {
-    private PosProcessador posProcessador;
+    /*o metodo processar esta na instancia de PosProcessador. Dessa forma
+      qualquer implementacao dessa interface pode ser utilizada para realizar
+    * o pos-processamento do arquivo.
+
+        o processador pode ser configurado independente da subclasse que esta
+        sendo utlizada, permitindo varia de forma independente
+    */
+    private PosProcessador posProcessador; //compõe a classe GeradorArquivo
 
     public final void setProcessador(PosProcessador posProcessador){
         this.posProcessador = posProcessador;
