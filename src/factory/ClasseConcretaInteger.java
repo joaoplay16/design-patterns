@@ -16,9 +16,4 @@ public class ClasseConcretaInteger extends ClasseAbstrata<Integer> {
         }
         return listaDeStrings;
     }
-
-    @Override
-    public void addToList(Integer num) {
-        getList().add(num);
-    }
 }

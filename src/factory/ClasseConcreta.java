@@ -16,6 +16,7 @@ public class ClasseConcreta extends ClasseAbstrata<String> {
         return listaDeStrings;
     }
 
+    // implementação opcional
     @Override
     public void addToList(String string) {
         string += " é bom";

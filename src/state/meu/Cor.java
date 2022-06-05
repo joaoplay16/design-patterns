@@ -1,9 +1,5 @@
 package state.meu;
 
-import state.dolivro.No;
-
-import java.util.List;
-
 //Classe que abstrai o estado de um nó
 public abstract class Cor {
     void mudar(Caneta caneta) { }

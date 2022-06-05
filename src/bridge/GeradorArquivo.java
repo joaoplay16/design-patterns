@@ -13,7 +13,7 @@ public abstract class GeradorArquivo {
     * o pos-processamento do arquivo.
 
         o processador pode ser configurado independente da subclasse que esta
-        sendo utlizada, permitindo varia de forma independente
+        sendo utlizada, permitindo variar de forma independente
     */
     private PosProcessador posProcessador; //compõe a classe GeradorArquivo
 
