@@ -1,4 +1,4 @@
-package composite;
+package composite.voo;
 
 public class Cliente {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package composite;
+package composite.voo;
 
 public interface TrechoAereo {
     public String getOrigem();

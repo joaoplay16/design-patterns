@@ -1,4 +1,4 @@
-package composite;
+package composite.voo;
 
 /*Observe pelo exemplo, que TrechoComposto pode ser composto tanto por ins-
   tâncias de TrechoSimples quanto por instâncias do próprio TrechoComposto

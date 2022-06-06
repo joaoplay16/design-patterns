@@ -1,4 +1,4 @@
-package composite;
+package composite.voo;
 
 public class TrechoSimples implements TrechoAereo{
     private String origem;
