@@ -15,7 +15,7 @@ public abstract class PosProcessador {
 	 **/
 	public PosProcessador() {
 		/*
-		Se a instancia atual não for uma instancia de PosProcessadorNulo crie uma nova
+		Se a instancia atual não for uma instancia de PosProcessadorNulo crie uma nova.
 		Verificao necessária pra evitar looping infinito de recursividade
 		*/
 	  	if(!(this instanceof PosProcessadorNulo)) proximo = new PosProcessadorNulo();

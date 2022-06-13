@@ -23,6 +23,10 @@ public class RecuperadorCacheMemoria extends RecuperadorArquivo {
         return null;
     }
 
+    /*Para armazenar novos arquivos no mapa, o método chamarProximo()
+     também é implementado para permitir que se tenha acesso ao arquivo
+     retornado pelo próximo.
+*/
 	@Override
     protected Arquivo chamarProximo(String nome) {
         Arquivo a = super.chamarProximo(nome);

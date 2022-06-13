@@ -7,6 +7,9 @@ package composite.voo;
   O padrão Composite possui o objetivo de permitir que a mesma abstração
   possa ser utilizada para uma instância simples e para seu conjunto.
 
+  Com esse padrão, uma das subclasses é quem possui a com-
+  posição recursiva. Nesse padrão as classes se organizam em forma de árvore, sendo
+  as compostas os nós internos e as outras, as folhas.
 
 */
 public class TrechoComposto implements TrechoAereo {
