@@ -11,7 +11,7 @@ public class Cliente {
     public static void main (String[] args){
         Compactador compactador = new Compactador();
         //criptografa depois compacta
-        Criptografador criptografador = new Criptografador(compactador);
+        Criptografador criptografador = new Criptografador();
 
         GeradorPropriedades geradorPropriedades = new GeradorPropriedades();
         geradorPropriedades.setProcessador(criptografador);
